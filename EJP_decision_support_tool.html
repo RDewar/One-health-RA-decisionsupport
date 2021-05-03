@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<div class = "div" id = "backdoor"> <h1 id = "approach"> </h1><p id = "infopara"></p></div>
+<div class="row" style="width: 1012px; height: 130px; background-color: white;">
+    <div class="column">
+        <a href="https://ec.europa.eu/programmes/horizon2020/en/h2020-section/joint-programming-initiatives"
+            target="_blank">
+            <img style="width: 50%; max-height: 50%;"
+                src="https://europa.eu/european-union/sites/europaeu/files/docs/body/flag_yellow_high.jpg"
+                alt="European Union"></a></div>
+    <div class="column">
+        <a href="https://onehealthejp.eu/" target="_blank"><img style="width: 50%; max-height: 50%;"
+                src="https://onehealthejp.eu/wp-content/uploads/2020/01/One-Health-EJP-logo-3-1024x549.jpg"
+                alt="One Health EJP">
+        </a></div>
+    <div class="column">
+        <a href="https://onehealthejp.eu/jip-cohesive/" target="_blank"><img style="width: 50%; max-height: 50%;"
+                src="https://www.rivm.nl/sites/default/files/2019-01/logo_cohesive.jpg" alt="COHESIVE">
+        </a></div>
+</div>
+<div class = "key">
+    <h3>Resources Key:</h3>
+    <a class="try1">One-Health</a>
+    <a class="try2">Animal health</a>
+    <a class = "try3">Food safety</a>
+    <a class = "try4">Public Health</a>
+    <br>
+    <a>For further information or to provide feedback please email <a href = "robert.dewar@apha.gov.uk">robert.dewar@apha.gov.uk</a></a>
+</div>
+
+
+<div class="popup" onclick="caveats_func()">Purpose, Scope and Caveats
+    <span class="popuptext" id="myPopup">
+        <h1 class="hed">The EJP Secision Support Tool for One-Health Risk Assessment</h1>
+        <h2>Purpose, scope and caveats</h2>
+        <p>This tool is designed to help those who are new to the fields of risk assessment or One-Health find an appropriate risk assessent approach.</p>
+        <p>This tool will:</p>
+        <ul>
+            <li>Showcase fifteen risk assessment approaches, providing a short description of each</li>
+            <li>Broadly assess your needs and limiations using a series of questions</li>
+            <li>Make suggestions on those needs and limitations</li>
+            <li>Be easily reset and adjusted for changing answers, allowing the user to explore many different paths
+            </li>
+            <li>Aim to provide access to as many resources as possible</li>
+            <li>Provide links to published examples of each approach, outlining how they work and where
+                they have succeeded historically</li>
+            <li>Be a good starting point to those less familiar with the field</li>
+        </ul>
+        <p>This tool will not:</p>
+        <ul>
+            <li>Provide the definitive answer to any of the questions that are asked</li>
+            <li>Conduct risk assessment in and of itself</li>
+            <li>Provide the definitive list of examples for each approach</li>
+            <li>Record any of the responses given by the user</li>
+            <li>Show any risk assessment resources that are not related to the field of One-Health</li>
+        </ul>
+        <p>The tool is designed to be simple and user-friendly. Click anywhere in this box to get started!</p>
+    </span>
+</div>
+
+
+<div class="footer">
+    <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under
+        Grant Agreement No 773830.</p>
+</div>
+
+<div id="root">
+    <h1 id="title"></h1>
+    <div align="right">
+        <button type="button" class="reset" onclick="reset()">Reset</button>
+    </div>
+
+    <div id="main"></div>
+</div>
+<div class="div" id="index"></div>
+<div 
+<p class="table" id="table1">
+    Emerging threats are usually non-endemic diseases. This might be a known disease that is reappearing, or a
+    previously untracked disease. Assessing the risk of disease spread is generic, and could apply to almost any risk.
+    If you are unsure what category your risk question falls in to, then this is the option to choose. In assessing risk
+    for policy, you are usually looking
+    at an endemic disease, or at a stage in an outbreak where the risk is already known. These are conducted when
+    decision-makers need to do something new, but do not know how this will affect the overall risk.
+</p>
+<table class="table" ; id="table2">
+
+    <tr>
+    <tr>
+        <td>African Horse Sickness
+        </td>
+    </tr>
+    <tr>
+        <td>African Swine Fever
+        </td>
+    </tr>
+    <tr>
+        <td>Aino Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Akabane Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Alkhurma Hemorrhagic Fever
+        </td>
+    </tr>
+    <tr>
+        <td>Bhanja Virus Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Bluetongue
+        </td>
+    </tr>
+    <tr>
+        <td>Bovine Ephemeral Fever
+        </td>
+    </tr>
+    <tr>
+        <td>Bunyamwera Fever
+        </td>
+    </tr>
+    <tr>
+        <td>Crimean-Congo Hemorrhagic fever
+        </td>
+    </tr>
+    <tr>
+        <td>Eastern Equine Encephalitus
+        </td>
+    </tr>
+    <tr>
+        <td>Epizootic Hemorrhagic Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Equine Encephalosis
+        </td>
+    </tr>
+    <tr>
+        <td>Getah Virus Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Heartwater
+        </td>
+    </tr>
+    <tr>
+        <td>Hepatozoonosis
+        </td>
+    </tr>
+    <tr>
+        <td>Highlands J. Virus Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Japanese Encephalitis
+        </td>
+    </tr>
+    <tr>
+        <td>Clinical Bovine Ephemeral Fever
+        </td>
+    </tr>
+    <tr>
+        <td>Leishmaniasis
+        </td>
+    </tr>
+    <tr>
+        <td>Equine Encephomyelitis
+        </td>
+    </tr>
+    <tr>
+        <td>Eastern Equine Encephalitis
+        </td>
+    </tr>
+    <tr>
+        <td>Nairobi Sheep Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Chuzan Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Peruvian Horse Sickness
+        </td>
+    </tr>
+    <tr>
+        <td>Rift Valley Fever
+        </td>
+    </tr>
+    <tr>
+        <td>Saint Louis Encephalitis
+        </td>
+    </tr>
+    <tr>
+        <td>Schmallenberg Virus
+        </td>
+    </tr>
+    <tr>
+        <td>Shuni Virus Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Thogoto Virus Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Venezuelan Equine Encephalitis
+        </td>
+    </tr>
+    <tr>
+        <td>Vesicular Stomatitis
+        </td>
+    </tr>
+    <tr>
+        <td>Wesselbron Virus Disease
+        </td>
+    </tr>
+    <tr>
+        <td>West Nile Fever
+        </td>
+    </tr>
+    <tr>
+        <td>Western Equine Encephalitis
+        </td>
+    </tr>
+    <tr>
+        <td>Yunnan Orbivirus Disease
+        </td>
+    </tr>
+    <tr>
+        <td>High Pathogenicity Avian influenza
+        </td>
+    </tr>
+    <tr>
+        <td>Newcastle Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Low Pathogenicity Avian Influenza
+        </td>
+    </tr>
+    <tr>
+        <td>Bluetongue
+        </td>
+    </tr>
+    <tr>
+        <td>Classical Swine fever
+        </td>
+    </tr>
+    </tr>
+    </tr>
+</table>
+<table class="table" id="table3">
+
+    <tr>
+    <tr>
+        <td>Anisakidae and Anisakiasis
+        </td>
+    </tr>
+    <tr>
+        <td>Ascaris spp.
+        </td>
+    </tr>
+    <tr>
+        <td>Blantidium coli
+        </td>
+    </tr>
+    <tr>
+        <td>Cryptosporidiosis
+        </td>
+    </tr>
+    <tr>
+        <td>Diphyllobothrium spp.
+        </td>
+    </tr>
+    <tr>
+        <td>Echinococcus granulosus
+        </td>
+    </tr>
+    <tr>
+        <td>Echinococcus multicularis
+        </td>
+    </tr>
+    <tr>
+        <td>Entamoeba hystolytica
+        </td>
+    </tr>
+    <tr>
+        <td>Fasciola spp.
+        </td>
+    </tr>
+    <tr>
+        <td>Giardia duodenalis
+        </td>
+    </tr>
+    <tr>
+        <td>Heterophidae and Heterophidiasis
+        </td>
+    </tr>
+    <tr>
+        <td>Opsthorchidae
+        </td>
+    </tr>
+    <tr>
+        <td>Paragonimus spp.
+        </td>
+    </tr>
+    <tr>
+        <td>Sarcocystis spp.
+        </td>
+    </tr>
+    <tr>
+        <td>Spirometra spp.
+        </td>
+    </tr>
+    <tr>
+        <td>Taenia saginata
+        </td>
+    </tr>
+    <tr>
+        <td>Taenia solium
+        </td>
+    </tr>
+    <tr>
+        <td>Toxicara spp.
+        </td>
+    </tr>
+    <tr>
+        <td>Toxoplasma gondii
+        </td>
+    </tr>
+    <tr>
+        <td>Trichinella spp. Other than T.spiralis
+        </td>
+    </tr>
+    <tr>
+        <td>Trichinella spiralis
+        </td>
+    </tr>
+    <tr>
+        <td>Tichuris trichiura
+        </td>
+    </tr>
+    <tr>
+        <td>Trypanosoma cruzi
+        </td>
+    </tr>
+    </tr>
+</table>
+<table class="table" id="table4">
+
+    <tr>
+    <tr>
+        <td>African Swine fever
+        </td>
+    </tr>
+    <tr>
+        <td>Aujesky's disease
+        </td>
+    </tr>
+    <tr>
+        <td>Avian Influenza
+        </td>
+    </tr>
+    <tr>
+        <td>Bluetongue
+        </td>
+    </tr>
+    <tr>
+        <td>Classical Swine Fever
+        </td>
+    </tr>
+    <tr>
+        <td>Equine Viral Arteritis
+        </td>
+    </tr>
+    <tr>
+        <td>Foot-and-Mouth Disease
+        </td>
+    </tr>
+    <tr>
+        <td>Rabies
+        </td>
+    </tr>
+    <tr>
+        <td>West Nile Fever
+        </td>
+    </tr>
+    <tr>
+        <td>Bovine Spongiform Encephalopathy
+        </td>
+    </tr>
+    <tr>
+        <td>Bovine Tuberculosis
+        </td>
+    </tr>
+    <tr>
+        <td>BVD
+        </td>
+    </tr>
+    <tr>
+        <td>Campylobacteriosis
+        </td>
+    </tr>
+    <tr>
+        <td>Equine Influenza
+        </td>
+    </tr>
+    <tr>
+        <td>Foot Rot
+        </td>
+    </tr>
+    <tr>
+        <td>PMWS
+        </td>
+    </tr>
+    <tr>
+        <td>Salmonella spp.
+        </td>
+    </tr>
+    <tr>
+        <td>Toxoplasmosis (cats)
+        </td>
+    </tr>
+    <tr>
+        <td>Toxoplasmosis (sheep)
+        </td>
+    </tr>
+    <tr>
+        <td>VTEC
+        </td>
+    </tr>
+    <tr>
+        <td>Lameness
+        </td>
+    </tr>
+    <tr>
+        <td>Sow Crates
+        </td>
+    </tr>
+    </tr>
+</table>
+
+
+
+
+<style>
+    body {
+        font-family: sans-serif;
+        background-color: #cfe0e8;
+    }
+
+    h1 {
+        margin-left: 0.2em;
+    }
+
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .column {
+        float: left;
+        width: 30%;
+        padding: 5px;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        top: 3000;
+        bottom: 0;
+        width: 100%;
+        min-height: 2.5rem;
+        background-color: orange;
+        color: black;
+        text-align: center;
+        z-index: 0;
+    }
+
+    /* Popup container */
+    .popup {
+        position: absolute;
+        left: 550px;
+        top: 150px;
+        display: inline-block;
+        cursor: pointer;
+        background-color: tomato;
+        border: 1px solid sienna;
+        border-radius: 6px;
+        padding: 10px;
+    }
+    .key {
+        position: absolute;
+        top: 150px;
+        left: 800px;
+        max-width: 800px;
+        max-height: 50px;
+    }
+    .onehealth {
+        padding: 10px;
+        display: block;
+        margin-top: 5px;
+        color: #4B6C86;
+        text-decoration: underline;
+
+    }
+    .animal {
+        padding: 10px;
+        display: block;
+        margin-top: 5px;
+        color: #4B6C86;
+        text-decoration: underline;
+
+    }
+    .publichealth {
+        padding: 10px;
+        display: block;
+        margin-top: 5px;
+        color: #4B6C86;
+        text-decoration: underline;
+
+    }
+    .food {
+        padding: 10px;
+        display: block;
+        margin-top: 5px;
+        color: #4B6C86;
+        text-decoration: underline;
+
+    }
+    a.try1 {
+        color: blue;
+        background: palegoldenrod;
+        text-decoration: underline;  
+        padding: 10px;
+        display: inline-block;
+        margin-top: 5px;
+    }
+    a.try2 {
+        color: blue;
+        background: rgb(235, 97, 34);
+        text-decoration: underline; 
+        padding: 10px;
+        display: inline-block;
+        margin-top: 5px; 
+    }
+    a.try3 {
+        color: blue;
+        background: rgba(34, 235, 34, 0.534);
+        text-decoration: underline;
+        padding: 10px;
+        display: inline-block;
+        margin-top: 5px; 
+    }
+    a.try4 {
+        color: rgb(246, 246, 250);
+        background: rgb(34, 37, 235);
+        text-decoration: underline;
+        padding: 10px;
+        display: inline-block;
+        margin-top: 5px; 
+    }
+
+
+
+
+    ul {
+        list-style-position: outside;
+    }
+
+    li {
+        list-style-position: outside;
+    }
+
+    h1 {
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-left: 10px;
+        text-align: center;
+    }
+    h3 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    p {
+        margin-left: 10px;
+    }
+
+    /* The actual popup (appears on top) */
+    .popup .popuptext {
+        visibility: visible;
+        width: 900px;
+        height: 500px;
+        background-color: #555;
+        color: #fff;
+        text-align: left;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 2;
+        bottom: -400px;
+        left: 10%;
+        margin-left: -500px;
+        overflow: scroll;
+    }
+    #index {
+        position: absolute;
+        left: 500;
+        top: 200px;
+        margin-bottom: 400px;
+        margin-left: 530px;
+        z-index: 0;
+
+    }
+    #spacer {
+        height: 300px;
+    }
+    #approach {
+        font-size: 16px;
+    }
+
+    #exhead {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #exhead:hover {
+        color: black
+    }
+
+    /* Toggle this class when clicking on the popup container (hide and show the popup) */
+    .popup .show {
+        visibility: hidden;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+    }
+
+    .popup .show {
+        visibility: hidden;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+    }
+
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+
+    .table {
+        width: 800px;
+        height: 400px;
+        overflow: scroll;
+        display: none;
+        background-color: #EEE;
+        position: absolute;
+        left: 520px;
+        top: 138px
+    }
+
+    div#root,
+    div#notes {
+        max-width: 30em;
+        background-color: #EEE;
+        border: 1px solid #DDD;
+        padding: 0.3em;
+        padding-bottom: 5rem;
+        padding-right: 2em;
+
+
+    }
+
+    div.buttons {
+        background: #CCC;
+        border: 1px solid #BBB;
+        padding: 0.2em;
+        margin: 0.1em;
+        margin-bottom: 0.5em;
+    }
+
+    button {
+        padding: 0.1em 0.4em;
+        margin: 0.2em;
+        display: block;
+        font-family: helvetica;
+        font-size: 16px;
+        font-weight: 100;
+        text-align: left;
+        color: #fff;
+        background: #688296;
+        border: 1px solid #555;
+        font-weight: 100;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #4B6C86;
+        border: 1px solid #000;
+    }
+
+    button.selected {
+        background: #363;
+    }
+
+    button.reset {
+        font-size: 75%;
+        background: #a33;
+    }
+
+    button.reset:hover {
+        background: #C33
+    }
+
+    #T1button {
+        position: absolute;
+        left: 500px;
+        top: 10px;
+    }
+
+    #T2button {
+        position: absolute;
+        left: 570px;
+        top: 10px;
+    }
+
+    #T3button {
+        position: absolute;
+        left: 640px;
+        top: 10px;
+    }
+
+    #T4button {
+        position: absolute;
+        left: 710px;
+        top: 10px;
+    }
+
+    #T5button {
+        position: absolute;
+        left: 780px;
+        top: 10px;
+    }
+
+    table {
+        position: absolute;
+        left: 500px;
+        top: 40px;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    tr {
+        border: 1px solid black;
+    }
+
+    td {
+        border: 1px solid black;
+    }
+
+    a.onehealth {
+        color: blue;
+        background: palegoldenrod;
+        text-decoration: underline;
+    }
+    a.animal {
+        color: blue;
+        background: rgb(235, 97, 34);
+        text-decoration: underline;
+    }
+    a.food {
+        color: blue;
+        background: rgba(34, 235, 34, 0.534);
+        text-decoration: underline;
+    }
+    a.publichealth {
+        color: rgb(246, 246, 250);
+        background: rgb(34, 37, 235);
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: hotpink;
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+</style>
+
+
+<script type="text/javascript">
+
+    let main = document.getElementById("main");
+    let rootData = getData();
+    let toolData = getTools();
+    // passes the whole data structure through the script 
+    document.getElementById("title").innerText = rootData.title
+    askQuestion(rootData);
+
+
+    let index = document.getElementById("index");
+    var tools = toolData.tools
+    toolData.tools.forEach(function (object) {
+        var btnxx = document.createElement("button")
+        btnxx.innerHTML = object.approach
+        btnxx.onclick = () => {
+            if (indidiv.style.display === "none"){
+                return indidiv.style.display = "block";
+            } else {
+                return indidiv.style.display = "none"
+            }
+        }
+        index.appendChild(btnxx)
+        let indidiv = document.createElement("div")
+        indidiv.id = "indidiv"
+        index.appendChild(indidiv)
+        let btnx = document.createElement("h1");
+        btnx.innerHTML = object.approach
+        indidiv.appendChild(btnx)
+        let infopar = document.createElement("p")
+        infopar.innerHTML = object.info
+        indidiv.appendChild(infopar)
+        var reheading = document.createElement("a")
+        reheading.class = "thing"
+        reheading.innerText = "Examples:"
+        indidiv.appendChild(reheading)
+        var kelement = "";
+        var o_n = object.name;
+        var l_d = object.link;
+        var o_c = object.class
+        for (var i = 0; i < o_n.length; i++) {
+            kelement = document.createElement("a")
+            kelement.className = o_c[i]
+            kelement.innerHTML = o_n[i]
+            kelement.href = l_d[i]
+            kelement.target = "_.blank"
+            indidiv.appendChild(kelement);
+                }
+        indidiv.style.display = "none"
+
+    });
+
+
+
+    // attributes a level to the question asked, level 0 being the default, the root of the tree
+    function askQuestion(subTree, levelIdx = 0) {
+        let levelDiv = document.createElement("div");
+        levelDiv.setAttribute("id", "Div1");
+        levelDiv.className = "level";
+        levelDiv.id = levelIdx;
+        main.appendChild(levelDiv);
+        //if there is an outcome there will be no more questions, otherwise questions will feed in
+        if (subTree.hasOwnProperty('outcomes')) {
+            hideAllLists()
+
+            subTree.outcomes.forEach(outcome => {
+                var toolElement = getToolByName(toolData.tools, outcome) // look up by name in the tools data set
+                var nameElement = toolElement.name
+                var linkdata = toolElement.link
+                var classdata = toolElement.class
+                //for (var i = 0; i < outcome.length; i++) {
+                //Buttonelement[i] = document.createElement("button")
+                //Buttonelement[i].type = "button"
+                //Buttonelement[i].innerHTML = outcome[i].approach
+                //Buttonelement[i].onclick = () => {
+                // toolElement = outcome[i]
+                //};
+
+
+                //var linkElement = document.createElement("a") // attach href-link element 
+                //linkElement.href = toolElement.link
+                //linkElement.target = "_.blank"
+                //linkElement.text = toolElement.name
+                if (toolElement.hasOwnProperty('approach')) {
+                    var approachname = document.createElement("h1")
+                    approachname.id = "approach"
+                    approachname.innerHTML = toolElement.approach
+                    levelDiv.appendChild(approachname)
+                }
+
+                if (toolElement.hasOwnProperty('info')) {                                               // only attach the "info" if it exists
+                    var infoPara = document.createElement("P")
+                    infoPara.innerText = toolElement.info
+                    levelDiv.appendChild(infoPara)
+
+                    //levelDiv.appendChild(linkElement);
+                    // levelDiv.appendChild(document.createElement("p")); // add some space between different outcomes
+
+
+                }
+                if (toolElement.hasOwnProperty("name")) {
+                    var exheading = document.createElement("a")
+                    exheading.id = "exhead"
+                    exheading.innerText = "Examples:"
+                    levelDiv.appendChild(exheading)
+                }
+
+                var linkElement = "";
+                for (var i = 0; i < nameElement.length; i++) {
+                    linkElement = document.createElement("a")
+                    linkElement.className = classdata[i]
+                    linkElement.innerHTML = nameElement[i]
+                    linkElement.href = linkdata[i]
+                    linkElement.target = "_.blank"
+                    levelDiv.appendChild(linkElement);
+                }
+            })
+        }
+        else {
+            if (subTree.hasOwnProperty('actions')) {
+                hideAllLists()
+                var scriptElement = document.createElement("script")
+                scriptElement.text = subTree.actions
+                levelDiv.appendChild(scriptElement)
+            } else { hideAllLists() }
+            levelDiv.appendChild(document.createTextNode(subTree.question));
+            showOptions();
+        }
+
+        //creates the responses panel
+        function showOptions() {
+            let responsePanel = document.createElement("div");
+            responsePanel.className = "buttons";
+            levelDiv.appendChild(responsePanel);
+            //creates a button with the answers on
+            subTree.responses.forEach(response => {
+                let btn = document.createElement("button");
+                btn.type = "button";
+                btn.innerHTML = response.answer;
+                //Removes any questions after a given point should you go back and click on a different answer to previously
+                //Also will add the next level question below using askQuestion function
+                //Also will remove the selected formatting should a different option be taken to before.
+                btn.onclick = () => {
+                    removeDescendantsOf(levelIdx);
+                    askQuestion(response, levelIdx + 1);
+                    responsePanel
+                        .querySelectorAll("button")
+                        .forEach(b => {
+                            if (b == btn) b.className = "selected"
+                            else b.classList.remove("selected")
+                        });
+                }
+                responsePanel.appendChild(btn);
+            })
+        }
+    }
+
+    function removeDescendantsOf(levelIdx) {
+        let len = main.childNodes.length;
+
+        [...main.querySelectorAll("div.level")]
+            .filter(d => d.id > levelIdx)
+            .forEach(d => main.removeChild(d));
+    }
+
+    function reset() {
+        removeDescendantsOf(0);
+        main.querySelectorAll("button")
+            .forEach(b => b.classList.remove("selected"));
+        hideAllLists();
+        showindex();
+        var indices = document.querySelectorAll("[id='indidiv']");
+        for (var i =0; i < indices.length; i++)
+        indices[i].style.display = "none";
+    }
+    function createstuff() {
+        created = getToolByName(toolData, btnx.innerText)
+        heading = getElementById("approach")
+        heading.innerHTML = created.approach
+        infopara = getElementById("infopara")
+        infopara.innerHTML = created.info
+    }
+        //backdoor = getElementById("backdoor")
+        //backdoor.appendChild(heading)
+        //backdoor.appendChild(infopara)
+    //}
+    
+    function hideAllLists() {
+        document.getElementById("index").style.display = "none";
+        document.getElementById("table1").style.display = "none";
+        document.getElementById("table2").style.display = "none";
+        document.getElementById("table3").style.display = "none";
+        document.getElementById("table4").style.display = "none";
+    }
+
+    function show1() {
+        document.getElementById("table1").style.display = "block";
+    }
+    function show2() {
+        document.getElementById("table2").style.display = "block";
+    }
+    function show3() {
+        document.getElementById("table3").style.display = "block";
+    }
+    function show4() {
+        document.getElementById("table4").style.display = "block";
+    }
+    function showindex() {
+        document.getElementById("index").style.display = "block";
+    }
+    btnpanel = document.createElement("div")
+    for (var i = 0; i < toolElement.length; i++) {
+        btnstart = document.createElement("button")
+        btnstart.innerHTML = toolElement.approach[i]
+        spacer = document.createElement("div")
+        spacer.setAttribute("id", "spacer")
+        btnstart.appendChild(spacer)
+        btnpanel.appendChild(btnstart)
+
+    }
+
+
+
+    function caveats_func() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+    }
+    function getData() {
+        return {
+            "title": "EJP Decision Support Tool",
+            "question": "[TIME AVAILABLE] What timeframe do you have to complete the risk assessment?",
+            "actions": "showindex()",
+            "responses": [
+                {
+                    "answer": "Long (>4 weeks)",
+                    "question": "[HAZARD-ID] What activity best describes your needs?",
+                    "responses": [
+                        {
+                            "answer": "Scanning surveillance  over a range of diseases",
+                            "question": "[GEO-SPECIFICITY] At what geographic level is your risk question?",
+                            "responses": [
+                                {
+                                    "answer": "Multi-Country",
+                                    "outcomes": [
+                                        "Multi-country disease prioritisation"
+                                    ]
+                                },
+                                {
+                                    "answer": "Single Country",
+                                    "question": "What level of data is available?",
+                                    "responses": [
+                                        {
+                                            "answer": "Low",
+                                            "outcomes": [
+                                                "Qualitative disease prioritisation"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "Medium",
+                                            "outcomes": [
+                                                "Semi-quantitative disease prioritisation"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "High",
+                                            "outcomes": [
+                                                "Quantitative disease prioritisation"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "answer": "Regional",
+                                    "outcomes": [
+                                        "Regional disease prioritisation"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "answer": "Full risk assessment of specific disease risk",
+                            "question": "[DATA] What level of data is available?",
+                            "responses": [
+                                {
+                                    "answer": "Low",
+                                    "question": "[EXPERTISE] What level of experience do you have with mathematical approaches to risk assessment?",
+                                    "responses": [
+                                        {
+                                            "answer": "Very low/beginner",
+                                            "outcomes": [
+                                                "Qualitative risk assessment"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "Medium/high",
+                                            "outcomes": [
+                                                "Deterministic risk assessment"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "answer": "Medium, including some trade and disease-specific data",
+                                    "question": "[EXPERTISE] What level of experience with mathematical approaches to risk assessment?",
+                                    "responses": [
+                                        {
+                                            "answer": "Very low/beginner",
+                                            "outcomes": [
+                                                "Deterministic risk assessment"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "Medium/high",
+                                            "question": "[EVENT] What best describes the threat you are assessing?",
+                                            "responses": [
+                                                {
+                                                    "answer": "Emerging disease threat",
+                                                    "outcomes": [
+                                                        "Import risk assessment: stochastic"
+                                                    ]
+                                                },
+                                                {
+                                                    "answer": "Spread of endemic disease threat",
+                                                    "question": "[EVENT] What level of resolution do you require for your risk assessment?",
+                                                    "responses": [
+                                                        {
+                                                            "answer": "Detailed",
+                                                            "question": "[EVENT] Do you require economic analysis in your assessment?",
+                                                            "responses": [
+                                                                {
+                                                                    "answer": "yes",
+                                                                    "outcomes": [
+                                                                        "Cost-benefit analysis"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "answer": "no",
+                                                                    "question": "[EVENT] Is the threat you are assessing foodborne?",
+                                                                    "responses": [
+                                                                         {
+                                                                            "answer": "yes",
+                                                                            "outcomes": [
+                                                                                "Farm-to-consumption QMRA"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "answer": "no",
+                                                                            "outcomes": [
+                                                                                "Bespoke modelling techniques"
+                                                                            ]
+                                                                        }
+                                                                       
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "answer": "Broad",
+                                                            "outcomes": [
+                                                                "Stochastic risk assessment"
+                                                            ]
+                                                        }
+                                                    ]
+
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "answer": "High, including detailed disease data",
+                                    "question": "[EXPERTISE] What level of experience do you have with mathematical approaches to risk assessment?",
+                                    "responses": [
+                                        {
+                                            "answer": "Very low/beginner",
+                                            "outcomes": [
+                                                "Deterministic risk assessment"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "Medium/high",
+                                            "question": "[EVENT] What best describes the threat you are assessing?",
+                                            "responses": [
+                                                {
+                                                    "answer": "Emerging disease threat",
+                                                    "outcomes": [
+                                                        "Import risk assessment: stochastic", "Stochastic risk assessment"
+                                                    ]
+                                                },
+                                                {
+                                                    "answer": "Spread of endemic disease threat",
+                                                    "question": "[EVENT] What level of resolution do you require for your risk assessment?",
+                                                    "responses": [
+                                                        {
+                                                            "answer": "Detailed",
+                                                            "question": "[EVENT] Do you require economic analysis in your assessment?",
+                                                            "responses": [
+                                                                {
+                                                                    "answer": "yes",
+                                                                    "outcomes": [
+                                                                        "Cost-benefit analysis"
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "answer": "no",
+                                                                    "question": "[EVENT] Is the threat you are assessing foodborne?",
+                                                                    "responses": [
+                                                                        {
+                                                                            "answer": "no",
+                                                                            "outcomes": [
+                                                                                "Bespoke modelling techniques"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "answer": "yes",
+                                                                            "outcomes": [
+                                                                                "Farm-to-consumption QMRA"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "answer": "Broad",
+                                                            "outcomes": [
+                                                                "Stochastic risk assessment"
+                                                            ]
+                                                        }
+                                                    ]
+
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "answer": "Medium (<4 weeks)",
+                    "question": "[HAZARD-ID] What activity best describes your needs?",
+                    "responses": [
+                        {
+                            "answer": "Scanning surveillance  over a range of diseases",
+                            "question": "[DATA] What level of data is available?",
+                            "responses": [
+                                {
+                                    "answer": "Low",
+                                    "outcomes": [
+                                        "Qualitative disease prioritisation"
+                                    ]
+                                },
+                                {
+                                    "answer": "Medium",
+                                    "outcomes": [
+                                        "Semi-quantitative disease prioritisation"
+                                    ]
+                                },
+                                {
+                                    "answer": "High",
+                                    "outcomes": [
+                                        "Quantitative disease prioritisation"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "answer": "Full risk assessment of specific disease risk",
+                            "question": "[DATA] What level of data is available?",
+                            "responses": [
+                                {
+                                    "answer": "Low, limited",
+                                    "question": "[EVENT] What best describes the threat you are assessing?",
+                                    "responses": [
+                                        {
+                                            "answer": "Emeging threat",
+                                            "outcomes": [
+                                                "Preliminary outbreak assessment"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "Spread of endemic disease",
+                                            "outcomes": [
+                                                "Rapid risk assessment"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "answer": "Medium",
+                                    "question": "[EXPERTISE] What level of experience do you have with mathematical approaches to risk assessment?",
+                                    "responses": [
+                                        {
+                                            "answer": "Very low/beginner",
+                                            "outcomes": [
+                                                "Qualitative risk assessment"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "Low/medium",
+                                            "outcomes": [
+                                                "Deterministic risk assessment"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "High, including detailed disease data",
+                                            "outcomes": [
+                                                "Stochastic risk assessment"
+                                            ]
+                                        }]
+                                },
+                                {
+                                    "answer": "High",
+                                    "question": "[EXPERTISE] What level of experience do you have with mathematical approaches to risk assessment?",
+                                    "responses": [
+                                        {
+                                            "answer": "Zero",
+                                            "outcomes": [
+                                                "Qualitative risk assessment"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "Low/medium",
+                                            "outcomes": [
+                                                "Deterministic risk assessment"
+                                            ]
+                                        },
+                                        {
+                                            "answer": "High",
+                                            "question": "[EVENT] What best describes your needs in the risk assessment?",
+                                            "responses": [
+                                                {
+                                                    "answer": "Detailed tracking",
+                                                    "outcomes": [
+                                                        "Bespoke modelling techniques"
+                                                    ]
+                                                },
+                                                {
+                                                    "answer": "Broad",
+                                                    "outcomes": [
+                                                        "Stochastic risk assessment"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "answer": "Short (<1 week)",
+                    "question": "[HAZARD-ID] What activity best describes your needs?",
+                    "responses": [
+                        {
+                            "answer": "Scanning surveillance",
+                            "question": "[EVENT] The timeframe suits an off-the-shelf prioritisation tool, which of the following best describes your risk question?",
+                            "outcomes": [
+                                "Horizon scanning"
+                            ]
+                        },
+
+                        {
+                            "answer": "Full risk assessment of specific disease risk",
+                            "question": "[EVENT] What best describes the threat you are assessing?",
+                            "responses": [
+                                {
+                                    "answer": "Emerging disease threat",
+                                    "outcomes": [
+                                        "Preliminary outbreak assessment"
+                                    ]
+                                },
+                                {
+                                    "answer": "Spread of endemic disease",
+                                    "outcomes": [
+                                        "Rapid risk assessment"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+    function getToolByName(tools, approach) {
+        var found = null;
+
+        for (var i = 0; i < tools.length; i++) {
+            var element = tools[i];
+
+            if (element.approach == approach) {
+                found = element;
+                break;
+            }
+        }
+
+        return found;
+    }
+
+    function getTools() {
+        return {
+            "tools":
+                [
+                {
+                        "approach": "Qualitative risk assessment",
+                        "name": ["OIE qualitative risk assessment framework",    "Codex Alimentarius microbial risk assessment", "RVF risk assessment EU", "RVF risk assessment UK", "Foot-and-mouth Spain"],
+                        "link": ["https://rr-africa.oie.int/wp-content/uploads/2018/03/handbook_on_import_risk_analysis_-_oie_-_vol__i.pdf", "http://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXG%2B30-1999%252FCXG_030e_2014.pdf", "https://efsa.onlinelibrary.wiley.com/doi/full/10.2903/j.efsa.2020.6093#:~:text=Rift%20Valley%20fever%20(RVF%20)%20is,genus%2C%20to%20animals%20and%20humans.&text=The%20only%20identified%20pathways%20for,airplanes%20or%20by%20wind%20currents.", "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/902415/poa-rvf-mayotte.pdf", "https://www.sciencedirect.com/science/article/pii/S0167587708000627"],
+                        "info": "Qualitative risk assessments can be applied in any scenario from multiple geographic perspectives, but are generally best suited when more complex methods are problematic, such as when time is short or data are lacking. Most animal health and zoonosis risk assessments stem from the World Organisation for Animal Health (OIE) Terrestrial/Aquatic Animal Health Code, but other approaches such as Codex Alimentarius are also recognised.  The OIE framework consists of a release (or entry) assessment, exposure assessment, consequence assessment and risk estimation. Hazard Identification is an important first step, but the OIE framework does not consider this part of the risk assessment section of the wider risk analysis methodology which also includes risk management and risk communication.   Steps in the risk assessment process involve: establishing a risk question, drawing a risk pathway, and estimating the risks of each segment of the pathway based on evidence. These are then combined into an overall risk. The process should ideally include an estimate of the level of uncertainty. An EFSA risk assessment and a UK risk assessment on the incursion risk of rift valley fever are listed below for comparison.",
+                        "class": ["animal", "food", "onehealth","onehealth", "animal"]
+                    },
+                    {
+                        "approach": "Deterministic risk assessment",
+                        "name": ["OIE quantitative risk assessment framework", "Risk to animals from catering waste"],
+                        "link": ["https://rr-africa.oie.int/wp-content/uploads/2018/03/handbook_on_import_risk_analysis_-_oie_-_vol_ii.pdf", "https://www.researchgate.net/publication/8399223_Risk_to_farm_animals_from_pathogens_in_composted_catering_waste_containing_meat/link/00b7d537328d24b378000000/download"],
+                        "info": "Deterministic risk assessments are quantitative analyses where the overall risk is determined by multiplying estimates for the average probabilities of each step in the pathway together. It is relatively easy to learn given a medium timescale and can provide an easily interpretable risk estimate. One main disadvantage is that, unlike more advanced quantitative methods such as stochastic risk assessment, it cannot fully integrate uncertainty in to the final estimate. Instead, the impact of uncertainty at each step on the final risk score can be  described qualitatively,  or assessed  through  modelling different scenarios using extreme biologically plausible estimates   for your parameters. Deterministic risk assessment is therefore best used when data variability and uncertainty are low, such that the resource needed for more complex methods may not be necessary. The OIE quantitative risk assessment guidance explains this approach in more detail.  Most deterministic risk assessments are not too complex and can be carried out in Excel, although the assessor is generally best advised to use whichever software they are most comfortable with.  For more complex computational models a programming language such as R, Matlab or Python is recommended.",
+                        "class": ["animal", "animal"]
+                        },
+                    {
+                        "approach": "Stochastic risk assessment",
+                        "name": ["OIE quantitative risk assessment framework", "E-Coli in salad bars", "Salmonellosis in Europe", "Optimising surveillance systems"],
+                        "link": ["https://rr-africa.oie.int/wp-content/uploads/2018/03/handbook_on_import_risk_analysis_-_oie_-_vol_ii.pdf", "https://pubmed.ncbi.nlm.nih.gov/20132672/", "https://www.cambridge.org/core/journals/epidemiology-and-infection/article/attributing-foodborne-salmonellosis-in-humans-to-animal-reservoirs-in-the-european-union-using-a-multicountry-stochastic-model/ACE6BB3B195065F1ACCB0B7A5B443925" ,"https://www.vetres.org/articles/vetres/pdf/2008/06/v08196.pdf"],
+                        "info": "A stochastic risk assessment is one in which parameter values are sampled from a probability distribution. Therefore, rather than taking an average of your data, you can simulate data variability in your model. A distribution usually represents how parameters behave in nature more accurately than fixed values. The most common stochastic method is Monte-Carlo simulation, but Bayesian modelling is also widely used. Uncertainty can also be included into parameter values in a similar way, but it is important not to mix uncertainty and variability. A two-stage Monte-Carlo analysis can be used to separate uncertainty and variability to the extent it is possible. See the examples for more detailed explanations of each. Software designed specifically for carrying out stochastic risk assessments exist; @Risk is often recommended for those with limited programming expertise as it integrates directly with Excel spreadsheets. Programming languages such as R, Python and Matlab are also regularly used and can provide more flexibility in the approach to the analyst."
+                        ,"class": ["animal", "food", "onehealth","onehealth"]
+                    },
+                    {
+                        "approach": "Bespoke modelling techniques",
+                        "name": ["One-Health modelling overview", "African Swine Fever spread", "AMR spread in a hospital setting"],
+                        "link": ["https://royalsocietypublishing.org/doi/10.1098/rstb.2016.0164", "https://www.sciencedirect.com/science/article/pii/S0167587712003650#sec0010", "https://www.sciencedirect.com/science/article/pii/S0924857999001351"],
+                        "info": "When the data and expertise are available, models can be tailored to virtually any system. Good knowledge of a software program, such as R, Python or Matlab, is required. There are several types of bespoke modelling for disease risk, outlined in the first example. What parameters you focus on, and how you attribute values to these, depends heavily on the purpose of your analysis. While there are similarities to stochastic risk assessment, bespoke models generally have an  increased depth of mathematical modelling, e.g. estimating risk spatiotemporally, and/or a wider scope than just risk assessment,   to simulate complex systems such as management practices on a farm or movement of animals between farms . Examples below will describe how bespoke modelling might be employed for different systems."
+                        ,"class": ["onehealth", "food", "publichealth"]
+                    },
+                    {
+                        "approach": "Qualitative disease prioritisation",
+                        "name": ["Prioritisation of wildlife pathogens", "Stakeholder opinion in prioritisation in Quebec"],
+                        "link": ["https://www.sciencedirect.com/science/article/pii/S0167587707000736","https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190049"],
+                        "info": "Disease prioritisation is performed in order to determine which diseases pose the greatest threat to your target country-block, country, region or area. Qualitative disease prioritisation is usually performed using a rapid risk assessment matrix, due to the large scale, need for fast results or low data availability.  Estimates for each disease may need to be obtained from expert opinion or a search of published literature. Because of the need for ranking, it is difficult to avoid some form of numerical scoring system. Diseases can be ranked purely based on the final qualitative assessment, but this does not allow for fine-grained discrimination between diseases. Instead, scoring can be done using a points-based system for different aspects of each disease, which then provides a basis for ranking and prioritising diseases, as shown in the first example where a semi-quantitative system is used to rank the diseases based on their scores. The main difference between these and traditionally semi-quantitative approaches is that they are single-dimensional. The scoring of the disease determines its rank, but the different disease-specific criteria are not themselves weighted. This means these analyses can be more focussed on a single risk question than traditional semi-quantitative approaches. Exploring semi-quantitative approaches as well will help you understand which is most suitable to you. The second example, while not a prioritisation itself, highlights how different stakeholder opinions can affect the ranking of diseases. This is worth considering when parameter values rely heavily on expert opinion ."
+                        ,"class": ["animal", "onehealth"]
+                    },
+                    {
+                        "approach": "Semi-quantitative disease prioritisation",
+                        "name": ["ECDC tool","ECDC Tool guidance", "Simplified generic prioritisation tool (ANSES)","SPARE","SPARE explanation","D2R2", "MINTRISK ", "MINTRISK in action" ,"Comparing different tools", "Stakeholder opinion in prioritisation in Quebec"],
+                        "link": ["https://ecdc.europa.eu/en/publications-data/ecdc-tool-prioritisation-infectious-disease-threats","https://www.ecdc.europa.eu/sites/portal/files/documents/Tool-for-disease-priority-ranking_handbook_0_0.pdf", "https://www.anses.fr/en/content/two-tools-prioritising-animal-diseases-available-online","https://spare-europe.shinyapps.io/Prioritising_livestock_diseases/","https://6a95708c-30e7-41af-ab09-68aca04f0455.filesusr.com/ugd/f65b08_7ef50f0af47f44c8b9582b3a9ec549e3.pdf", "https://pubmed.ncbi.nlm.nih.gov/27707948/", "https://www.wecr.wur.nl/mintrisk/", "https://www.researchgate.net/profile/H_J_W_Herman-Roermund/publication/301230446_Risk_assessment_of_seven_vector-borne_animal_diseases_for_the_Netherlands_a_structured_approach/links/5d2d736f92851cf4408723d8/Risk-assessment-of-seven-vector-borne-animal-diseases-for-the-Netherlands-a-structured-approach.pdf","https://efsa.onlinelibrary.wiley.com/doi/pdf/10.2903/sp.efsa.2019.EN-1743", "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190049"],
+                        "info": "Disease prioritisation is performed in order to determine which diseases pose the greatest threat to your target country-block, country, region or area. Semi-quantitative disease prioritisation is a well-established method, and there are several off-the-shelf tools available to do this. They generally have two dimensions; 1) Disease risks, which are parameterised across a range of criteria and 2) criteria weights, which determine the priority each criteria has in the ranking. For example, in the ECDC tool key criteria for measurements are established, such as risk of incursion, and  then assessed independently for each disease. Weights are attributed to these criteria, based on their relative importance to each other, e.g. if criteria A is deemed more important than criteria B then it will get a higher weight.  In a separate sheet a ranking of diseases will be produced based on these user inputs. The ANSES tool works in a similar way although it also provides a numeric risk estimate, and uncertainty estimate. Both tools rely on the user providing their own data for each disease, and efficacy of the output is largely reliant on the quality of these data. The SPARE tool listed below is pre-parameterised, and the user can only determine the weights attributed to each criterion. These tools perform basic prioritisation functions, but it is recommended that you do a qualitative risk assessment alongside them. Though the D2R2 tool isn’t publicly available, a paper about it is listed to offer additional information. The final example, while not a prioritisation itself, highlights how different stakeholder opinions can affect the ranking of diseases. This is worth considering when parameter values rely heavily on expert opinion. MINTRISK is a different in that it can perform semi-quantitative risk assessment with or without prioritisation. As such it does not use 'weighted' criteria in the same way."
+                        ,"class": ["onehealth", "onehealth", "onehealth","onehealth","onehealth","animal","onehealth","onehealth","onehealth","onehealth"]
+                    },
+                    {
+                        "approach": "Quantitative disease prioritisation",
+                        "name": [" Quantitative prioritisation using DALY and H-index","Stakeholder opinion in prioritisation in Quebec"],
+                        "link": ["https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0103529","https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190049"],
+                        "info": " Disease prioritisation is performed in order to determine which diseases pose the greatest threat to your target country-block, country, region or area. Quantitative prioritisations cannot be made without good data availability. They will prioritise diseases based on quantified outputs to certain criteria (such as probability of import via different pathways and country-level prevalence) or a final quantified risk. The underlying calculations may be either deterministic or stochastic.  Generic risk assessments, which are designed to be applicable for multiple diseases, often form the basis of quantitative disease prioritisation tools.   Due to the detailed nature of these tools, they can also be used for prioritising pathways of disease risk or regions of highest risk. These tools work well with streamlined data systems, where prioritisation can be updated in real time as disease-specific trends change. "
+                        ,"class": ["onehealth", "onehealth"]
+                    },
+                    {
+                        "approach": "Multi-country disease prioritisation",
+                        "name": ["WHO prioritisation for R&D","Disease prioritisation in Europe"],
+                        "link": ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6106429/", "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0103529"],
+                        "info": " Disease prioritisation is performed in order to determine which diseases pose the greatest threat to your target country-block, country, region or area. Multi-country prioritisation can be qualitative, quantitative or semi-quantitative. They can be used for decision-support in preparation for, or in reaction to the spread of large epidemics. They are ultimately reliant on disclosure of data between countries, and work best in countries that are connected by an overarching administration like the European Union. The WHO prioritisation listed below looks strictly at where different countries should invest in research and development against different diseases. The second example is an application of the MINTRISK tool  at the European level. The WHO publication uses a mixture of qualitative and quantitative techniques for prioritisation while the disease prioritisation in Europe example is purely quantitative."
+                        ,"class": ["onehealth", "onehealth"]
+                    },
+	     {
+                        "approach": "Regional disease prioritisation",
+                        "name": ["Localised One-Health disease prioritisation in India", "Stakeholder opinion in prioritisation in Quebec"],
+                        "link": ["https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0220152", "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0190049"],
+                        "info": "Disease prioritisation is performed in order to determine which diseases pose the greatest threat to your target country-block, country, region or area. Large countries, especially with decentralised public/veterinary health authorities, may choose to conduct prioritisation at the regional level. There may be, as in the first example below, elements of local geography that would affect disease spread. Alternatively, disease prevalence may be region-specific, splitting larger countries into zones which may have different disease prioritisations.  Local-level data may be harder  to come by, so parameterisation may rely more heavily on expert opinion. The second example, while not a prioritisation itself, highlights how different stakeholder opinions can affect the ranking of diseases. This is worth considering when parameter values rely heavily on expert opinion ."
+                        ,"class": ["onehealth", "onehealth"]
+                    },
+                    {
+                        "approach": "Cost-benefit analysis",
+                        "name": ["Cost-benefit assessment in UK pig industry"],
+                        "link": ["https://www.sciencedirect.com/science/article/pii/S0167587717308462"],
+                        "info": "Cost-benefit analysis in this context is to determine whether the benefit of measures for risk reduction, e.g. reduction in human or animal cases, are worth the cost of those measures. Usually, this begins with a risk assessment of scenarios with and without a particular measure in place, using quantitative modelling. A benchmark for cost must be established: whether priorities are financial, social, or ecological. Many analyses use a like-by-like comparison of risk reduction measures against the current, baseline cost of a process. Where loss of life or quality of life make it difficult to measure impacts of a disease financially, quality adjusted life years (QALYs) and disability adjusted life years (DALYs) are valuable comparative metrics."
+                        ,"class": ["animal"]
+                    },
+                    {
+                        "approach": "Import risk assessment: stochastic",
+                        "name": ["OIE animal health code for import risk analysis", "Entry framework bat-borne viruses", "Introduction of rabies in to Japan"],
+                        "link": ["https://www.oie.int/fileadmin/Home/eng/Health_standards/tahc/current/chapitre_import_risk_analysis.pdf", "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0165383","https://www.cambridge.org/core/journals/epidemiology-and-infection/article/quantitative-risk-assessment-of-the-introduction-of-rabies-into-japan-through-the-importation-of-dogs-and-cats-worldwide/C2C3A2051376156188FA1D1A4D07FE3B/core-reader"],
+                        "info": "Stochastic modelling with a focus on import (see also ‘Stochastic risk assessment’). Parameter values are randomly sampled from probability distributions to integrate data variability into the model. For import assessments, such data could be the number of animals/products exported to your country of interest, or transient movement of wildlife between countries. These combine with the underlying prevalence in the animal population and other disease-specific parameters, such as duration of the incubation period, to calculate the probability of at least one infected animal/product arriving at the country of interest. Coupled with the probability of detection on arrival (for example, by clinical symptoms), this outputs the overall import risk. The steps involved are often quite prescriptive and follow the World Organisation for Animal Health (OIE) Terrestrial/Aquatic Animal Health Code for import risk analysis. Two examples, one at the European level, and one at the country level (Japan) are listed."
+                        ,"class": ["animal", "onehealth", "onehealth"]
+                    },
+                    {
+                        "approach": "Farm-to-consumption QMRA",
+                        "name": ["Europe-level QMRA","Salmonella in Pork products","Codex Alimentarius microbial risk assessment"],
+                        "link": ["https://www.sciencedirect.com/science/article/pii/S0956713512002770","https://onlinelibrary.wiley.com/doi/abs/10.1111/risa.12522", "http://www.fao.org/fao-who-codexalimentarius/sh-proxy/en/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXG%2B30-1999%252FCXG_030e_2014.pdf"],
+                        "info": "Farm-to-consumption quantitative microbiological risk assessment (QMRA) models the process of disease transmission at multiple points between animals on farm and human consumption of meat products. They could focus on one part of this system, or model the entire system. In the examples the probability of human illness is calculated based on disease prevalence, the throughput of the food-stuff of interest, and the mitigations involved in farm management, food processing and cooking. This can be done quantitatively, usually involving a stochastic element. Often the goal is to identify points in the farm-to-consumption pathway vulnerable to contamination from external sources and which, if any, control measures might be effective at reducing the probability of human illness."
+                        ,"class": ["onehealth", "food", "food"]
+                    },
+                    {
+                        "approach": "Preliminary outbreak assessment",
+                        "name": ["OIE qualitative risk assessment framework", "Bluetongue outbreak assessment Europe"],
+                        "link": ["https://rr-africa.oie.int/wp-content/uploads/2018/03/handbook_on_import_risk_analysis_-_oie_-_vol__i.pdf", "https://www.gov.uk/government/publications/bluetongue-virus-in-europe"],
+                        "info": "Preliminary outbreak assessments focus on understanding a situation quickly and concisely. They are often carried out when something of significance is identified though international horizon scanning activities, e.g. a disease outbreak in a trading partner or neighbouring country. These rapid assessments estimate risk and uncertainty through data or expert opinion. They are conducted using a compressed version of the OIE qualitative risk assessment guideline. Though not a zoonosis, a number of bluetongue examples are listed to show this compressed structure. These assessments also have a larger focus on geographic aspects. They provide a snapshot of the situation at that time and suggest pathways through which a disease could reach the country/region of interest."
+                        ,"class": ["animal", "animal"]
+                    },
+                    {
+                        "approach": "Rapid risk assessment",
+                        "name": ["ECDC rapid assessment method", "Veterinary risk assessments"],
+                        "link": ["https://www.ecdc.europa.eu/sites/default/files/documents/operational-tool-rapid-risk-assessment-methodolgy-ecdc-2019.pdf", "https://www.gov.scot/publications/foot-and-mouth-disease-veterinary-risk-assessments-vras/"],
+                        "info": "These are qualitative risk assessments made for rapid analysis. As with all qualitative risk assessment, it follows a reductionist principle, where the process is broken down by stages in a pathway. Each step on that pathway is assigned a risk rating from negligible to very high and then recombined into a final risk score,  often performed using a risk matrix. Similarly, the risk assessor’s uncertainty at each step of the pathway is outlined and a final uncertainty is given. In the ECDC method below, stages are further simplified into probability and impact of introduction. Veterinary risk assessments are rapid risk assessments that are used for licensing essential activities during an outbreak."
+                        ,"class": ["onehealth", "animal"]
+                    },
+                    {
+                        "approach": "Horizon scanning",
+                        "name": ["Horizon scanning in fishery products", "Global-level horizon scanning", "HAIRS Qualitative RA framework", "HAIRS in action"],
+                        "link": ["https://www.sciencedirect.com/science/article/pii/S0956713513004519", "https://www.sciencedirect.com/science/article/pii/S0169534717302896", "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/761106/HAIRS_risk_assessment_processes.pdf", "https://pubmed.ncbi.nlm.nih.gov/19538820/"],
+                        "info": "In general, horizon scanning is a way of predicting and prioritising future threats. Much of the process is data acquisition across numerous potential threats and changes in their global prevalence in order to obtain a cross-section of all emerging threats, as in the fisheries example listed. It may also consider changes in global factors, such as habitat fragmentation, natural disasters or political turmoil: anything that may lead to significant disturbances in disease prevalence or transmission . To understand the risks these threats pose in more detail, frameworks such as the HAIRS framework are useful. It uses a qualitative algorithm to determine the risk level of an emerging threat between negligible and very high."
+                        ,"class": ["animal", "onehealth","onehealth","onehealth"]
+                    },
+                ]
+
+        }
+    }
+</script>
